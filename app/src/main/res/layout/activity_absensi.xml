@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".Absensi">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:gravity="center"
+        android:layout_marginTop="-10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_bg"
+            android:layout_marginBottom="-40dp"/>
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="150dp"
+            android:background="@drawable/bg_menu_home"
+            android:orientation="vertical"
+            android:gravity="center|top">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABSENSI"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnAbsPng"
+                        android:layout_centerHorizontal="true"
+                        android:text="ABSEN\nPENGAJAR"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="13sp"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"/>
+
+                    <Button
+                        android:id="@+id/btnAbsPng"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/home_addadmin"
+                        android:indeterminate="false" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnAbsPlj"
+                        android:layout_centerHorizontal="true"
+                        android:text="ABSEN\nPELAJAR"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="13sp"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:id="@+id/btnAbsPlj"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/home_addpengajar"
+                        android:indeterminate="false"
+                        android:layout_marginRight="35dp"
+                        android:layout_marginLeft="35dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnDataAbsensi"
+                        android:layout_centerHorizontal="true"
+                        android:textAlignment="center"
+                        android:text="DATA\nABSENSI"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="13sp"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:id="@+id/btnDataAbsensi"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/home_daftarabsensi"
+                        android:indeterminate="false"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

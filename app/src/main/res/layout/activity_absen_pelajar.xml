@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".AbsenPelajar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:gravity="center"
+        android:layout_marginTop="-10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_bg"
+            android:layout_marginBottom="-40dp"/>
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="150dp"
+            android:background="@drawable/bg_menu_home"
+            android:orientation="vertical"
+            android:gravity="center|top">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABSEN PELAJAR"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="20dp">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <RadioGroup
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rgPng"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <RadioButton android:id="@+id/radio_hadir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/radio_hadir"
+                        android:layout_marginRight="10dp"
+                        android:textSize="14dp"/>
+                    <RadioButton android:id="@+id/radio_izin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/radio_izin"
+                        android:layout_marginRight="10dp"
+                        android:textSize="14dp"/>
+                    <RadioButton android:id="@+id/radio_sakit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/radio_sakit"
+                        android:layout_marginRight="10dp"
+                        android:textSize="14dp"/>
+                    <RadioButton android:id="@+id/radio_alfa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/radio_alfa"
+                        android:layout_marginRight="10dp"
+                        android:textSize="14dp"/>
+                </RadioGroup>
+            </LinearLayout>
+            <Button
+                android:id="@+id/btnKrmAbsPlj"
+                style="@style/ButtonLogin"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15px"
+                android:padding="6dp"
+                android:textSize="14dp"
+                android:text="Kirim absen" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

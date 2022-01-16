@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BB-ALQURAN</string>
+    <string name="selected_item">Selected item:</string>
+    <string name="radio_hadir">Hadir</string>
+    <string name="radio_izin">Izin</string>
+    <string name="radio_sakit">Sakit</string>
+    <string name="radio_alfa">Alfa</string>
+    <string-array name="Kategori" text="Select">
+        <item>Pilih Kategori</item>
+        <item>Pelajar</item>
+        <item>Orang Tua</item>
+        <item>Pengajar</item>
+    </string-array>
+</resources>

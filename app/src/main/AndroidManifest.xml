@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bb_alquran">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconrev"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/c_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BBALQURAN">
+        <activity android:name=".DataAbsenPelajarOrangTua"></activity>
+        <activity android:name=".DataAbsenPelajar" />
+        <activity android:name=".DataPelajarAbsensiPengajar" />
+        <activity android:name=".DataKomunitasAbsenPelajar" />
+        <activity android:name=".DataPelajarHasilOrangTua" />
+        <activity android:name=".HasilPelajarOrangTua" />
+        <activity android:name=".DataHasilPelajarPengajar" />
+        <activity android:name=".InputHasilPengajar" />
+        <activity android:name=".DataPelajarHasilPengajar" />
+        <activity android:name=".HasilPengajar" />
+        <activity android:name=".Hasil" />
+        <activity android:name=".UpdateDataPelajar" />
+        <activity android:name=".TambahPelajar" />
+        <activity android:name=".DataPelajar" />
+        <activity android:name=".TambahKomunitas" />
+        <activity android:name=".Komunitas" />
+        <activity android:name=".DataAbsenPengajar" />
+        <activity android:name=".AbsenPengajar" />
+        <activity android:name=".AbsenPelajar" />
+        <activity android:name=".Absensi" />
+        <activity android:name=".RegisterOrtu" />
+        <activity android:name=".HomePengajar" />
+        <activity android:name=".RegisterPengajar" />
+        <activity android:name=".HomeOrtu" />
+        <activity android:name=".TambahUser" />
+        <activity android:name=".Daftar" />
+        <activity android:name=".Home" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

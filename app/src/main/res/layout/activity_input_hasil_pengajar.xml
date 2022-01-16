@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputHasilPengajar"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@color/white">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/pict_kids"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_menu_home"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:id="@+id/textPelajar"
+            style="@style/textlogin"
+            android:layout_marginTop="10dp"
+            android:text="INPUT HASIL PELAJAR"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/textlogin"
+                android:text="NAMA PELAJAR : "
+                android:textSize="13sp"/>
+            <TextView
+                android:id="@+id/textNamaPela"
+                style="@style/textlogin"
+                android:text=""
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Input Hasil :"
+                android:textSize="13sp"
+                android:layout_marginBottom="3dp"/>
+                <EditText
+                    android:id="@+id/et_HasilPelajar"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/bg_data_absen"
+                    android:inputType="text|textMultiLine"
+                    android:paddingLeft="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+            <Button
+                android:id="@+id/btnTambahPel"
+                style="@style/ButtonLogin"
+                android:layout_marginBottom="15px"
+                android:padding="6dp"
+                android:text="TAMBAH" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

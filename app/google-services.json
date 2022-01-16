@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "599405924484",
+    "firebase_url": "https://bb-alquran-default-rtdb.firebaseio.com",
+    "project_id": "bb-alquran",
+    "storage_bucket": "bb-alquran.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599405924484:android:aaa802f7064c104e88b2d1",
+        "android_client_info": {
+          "package_name": "com.example.bb_alquran"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "599405924484-g2oo223434ga2hfsnns0i79hmso4ao23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrj7sbZpOAZ3cU7HZiaHVaXZ41MSbFXDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "599405924484-g2oo223434ga2hfsnns0i79hmso4ao23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

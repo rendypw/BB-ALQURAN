@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".Home">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:gravity="center"
+        android:layout_marginTop="-10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_bg"
+            android:layout_marginBottom="-40dp"/>
+
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="250dp"
+            android:background="@drawable/bg_menu_home"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MENU"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:layout_marginLeft="15dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnprofil"
+                        android:layout_centerHorizontal="true"
+                        android:text="PROFIL"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="13sp"
+                         />
+                    <Button
+                        android:id="@+id/btnprofil"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/home_account"
+                        android:indeterminate="false" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnAbsen"
+                        android:layout_centerHorizontal="true"
+                        android:text="ABSENSI"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="13sp"
+                         />
+
+                    <Button
+                        android:id="@+id/btnAbsen"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/home_absensi"
+                        android:indeterminate="false"
+                        android:textStyle="bold"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnResult"
+                        android:layout_centerHorizontal="true"
+                        android:text="HASIL"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="13sp"
+                        />
+
+                    <Button
+                        android:id="@+id/btnResult"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/home_result"
+                        android:indeterminate="false"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnBayaran"
+                        android:layout_centerHorizontal="true"
+                        android:text="BAYARAN"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="13sp"
+                         />
+
+                    <Button
+                        android:id="@+id/btnBayaran"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/home_creditcard"
+                        android:indeterminate="false" />
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnJadwal"
+                        android:layout_centerHorizontal="true"
+                        android:text="JADWAL"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="13sp"
+                         />
+
+
+                    <Button
+                        android:id="@+id/btnJadwal"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/home_timetable"
+                        android:indeterminate="false" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnGroup"
+                        android:layout_centerHorizontal="true"
+                        android:text="KOMUNITAS"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="13sp"
+                         />
+
+                    <Button
+                        android:id="@+id/btnGroup"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/home_group"
+                        android:indeterminate="false"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/butTmbh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnadduser"
+                        android:textAlignment="center"
+                        android:layout_centerHorizontal="true"
+                        android:text="TAMBAH\nPENGGUNA"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="13sp"
+                        
+                        android:gravity="center_horizontal"/>
+
+                    <Button
+                        android:id="@+id/btnadduser"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/home_addpelajar"
+                        android:indeterminate="false"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnLogout"
+                        android:layout_centerHorizontal="true"
+                        android:text="LOGOUT"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="13sp"
+                         />
+
+                    <Button
+                        android:id="@+id/btnLogout"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/home_logout"
+                        android:indeterminate="false" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom|center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Bergembira Bersama Al-Quran V 1.0"
+            android:textColor="@color/colorTitle"
+            android:textSize="8sp"
+            android:layout_marginBottom="2dp"/>
+
+    </LinearLayout>
+</LinearLayout>
